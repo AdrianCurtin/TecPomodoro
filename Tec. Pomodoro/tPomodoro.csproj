@@ -142,7 +142,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <PRIResource Include="Strings\en\Resources.resw" />
-    <PRIResource Include="Strings\pt-br\Resources.resw" />
     <None Include="Tec. Pomodoro_StoreKey.pfx" />
     <None Include="Tec. Pomodoro_TemporaryKey.pfx" />
   </ItemGroup>
@@ -150,7 +149,6 @@
     <Content Include="Assets\Icons\list.png" />
     <Content Include="Assets\Images\clock.png" />
     <Content Include="Assets\Images\clockClock.png" />
-    <Content Include="Assets\Images\me.jpg" />
     <Content Include="Assets\Images\tomato.png" />
     <Content Include="Assets\Images\tomatoClock.png" />
     <Content Include="Assets\Images\tomatoError.png" />
