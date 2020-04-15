@@ -1,0 +1,1 @@
+F:\Github\TecPomodoro\Tec. Pomodoro\tPomodoro.csproj;x86

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
-  <Publisher>CN=A5E71672-B047-486B-8CF0-EE54A58507BC</Publisher>
-  <PublisherDisplayName>Little Hawk</PublisherDisplayName>
+  <Publisher>"CN=AdrianC"</Publisher>
+  <PublisherDisplayName>AdrianC</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="true" />
@@ -363,14 +363,4 @@
       <ReservedName>Tec. Pomodoro</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames>
-    <MainPackageIdentityName>40715OArquiteto.FEZTradutor</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.FotoAstronmica</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.MeuIMC</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.MinhaFormatura</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.NmerosDaSorte</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.Platman</MainPackageIdentityName>
-    <MainPackageIdentityName>40715OArquiteto.SeuSerHumano</MainPackageIdentityName>
-  </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9N28B1014G0J" />
 </StoreAssociation>
