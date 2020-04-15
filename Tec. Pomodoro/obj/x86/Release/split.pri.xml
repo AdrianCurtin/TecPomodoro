@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="X.t.Pomodoro" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://X.t.Pomodoro/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help.xbf" uri="ms-resource://X.t.Pomodoro/Files/Help.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tPomodoro.xr.xml" uri="ms-resource://X.t.Pomodoro/Files/tPomodoro.xr.xml">
+				<Candidate type="Path">
+					<Value>tPomodoro.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LargeTile.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Fonts">
+					<NamedResource name="bariol.ttf" uri="ms-resource://X.t.Pomodoro/Files/Assets/Fonts/bariol.ttf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\bariol.ttf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bitdust.ttf" uri="ms-resource://X.t.Pomodoro/Files/Assets/Fonts/bitdust.ttf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\bitdust.ttf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Icons">
+					<NamedResource name="list.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Icons/list.png">
+						<Candidate type="Path">
+							<Value>Assets\Icons\list.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Images">
+					<NamedResource name="clock.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/clock.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\clock.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clockClock.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/clockClock.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\clockClock.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tomato.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/tomato.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\tomato.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tomatoClock.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/tomatoClock.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\tomatoClock.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tomatoError.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/tomatoError.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\tomatoError.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tomatoGreen.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/tomatoGreen.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\tomatoGreen.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tomatoGreenClock.png" uri="ms-resource://X.t.Pomodoro/Files/Assets/Images/tomatoGreenClock.png">
+						<Candidate type="Path">
+							<Value>Assets\Images\tomatoGreenClock.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Notification">
+					<NamedResource name="Message.xml" uri="ms-resource://X.t.Pomodoro/Files/Assets/Notification/Message.xml">
+						<Candidate type="Path">
+							<Value>Assets\Notification\Message.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Sounds">
+					<NamedResource name="alarm.wav" uri="ms-resource://X.t.Pomodoro/Files/Assets/Sounds/alarm.wav">
+						<Candidate type="Path">
+							<Value>Assets\Sounds\alarm.wav</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://X.t.Pomodoro/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Vision">
+				<NamedResource name="CustomItemList.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/CustomItemList.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DictionaryTomato.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/DictionaryTomato.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageConfigTasklist.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageConfigTasklist.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageConfigTomato.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageConfigTomato.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageDistractions.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageDistractions.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageInfo.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageInfo.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageSilencePhone.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageSilencePhone.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageTomato.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageTomato.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageWarning.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/PageWarning.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UCStopNotice.xbf" uri="ms-resource://X.t.Pomodoro/Files/Vision/UCStopNotice.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://X.t.Pomodoro/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="String1" uri="ms-resource://X.t.Pomodoro/Resources/String1">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="ConfigTomatoTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ConfigTomatoTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Duration in minutes</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ConfigTomatoTxt2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ConfigTomatoTxt2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Concentration</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ConfigTomatoTxt3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ConfigTomatoTxt3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Distraction</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ConfigTomatoTxt4">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ConfigTomatoTxt4/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Repeats</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DistractionsTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/DistractionsTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Remove or move away from any distractions nearby.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Obs1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Obs1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Set the best time limits for you. (Concentration, Distraction)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Obs2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Obs2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Make the pomodoro with NO interruptions. Interruptions only in emergencies.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Obs3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Obs3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The method may not work with activities that require more creativity.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Obs4">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Obs4/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Efficient method to avoid procrastination.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SilencePhoneTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/SilencePhoneTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Turn off the distractions</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SilencePhoneTxt2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/SilencePhoneTxt2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Unplug the internet</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SilencePhoneTxt3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/SilencePhoneTxt3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Continue Online</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SilencePhoneTxt4">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/SilencePhoneTxt4/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Continue</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="StopNoticeTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/StopNoticeTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The pomodoro is over!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="StopNoticeTxt2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/StopNoticeTxt2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Repeat</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="StopNoticeTxt3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/StopNoticeTxt3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Leave</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TaskButton">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/TaskButton/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Next</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TaskTitle1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/TaskTitle1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Add Tasks</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TaskTxtBox">
+				<NamedResource name="PlaceholderText" uri="ms-resource://X.t.Pomodoro/Resources/TaskTxtBox/PlaceholderText">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Enter the task here</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Make a list of the tasks that are pending.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Schedule the application for certain minutes (25 min recommended).</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Choose one of the tasks and work on it without interruption.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec4">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec4/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>When the play application, take a break.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec5">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec5/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Delete the task from your list after you finish it.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec6">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec6/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Return the work after the break for another "pomodoro".</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Tec7">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Tec7/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Every four "pomodoros", take a longer break: 30 minutes until you return to work.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Title1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Title1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The technique is:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Title2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Title2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Notes</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastError0">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastError0/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The Pomodoro was stopped!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastError1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastError1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Check your settings and enable background execution of the application.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastErrorImage">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastErrorImage/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>tomatoError.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFinish0">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFinish0/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The Pomodoro was Done!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFinish1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFinish1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Congratulations! :P You finished the pomodoro!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFinishImage">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFinishImage/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>tomatoGreen.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFocus0">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFocus0/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Go Back To Work!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFocus1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFocus1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Time to Focus!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFocusImage">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFocusImage/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>tomatoClock.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFree0">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFree0/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Ehhh! Rest! :P</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFree1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFree1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Free Time!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastFreeImage">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastFreeImage/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>tomatoGreenClock.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastInterrupt0">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastInterrupt0/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The Pomodoro Has Been Interrupted!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastInterrupt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastInterrupt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Ahhh, you interrupted the pomodoro! : '(</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ToastInterruptImage">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/ToastInterruptImage/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>tomatoError.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TomatoTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/TomatoTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Tasks</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TomatoTxt2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/TomatoTxt2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Focus on Work!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WarningTxt1">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/WarningTxt1/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>The Internet is a place of MANY distractions. Are you SURE to continue?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WarningTxt2">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/WarningTxt2/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>I have</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WarningTxt3">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/WarningTxt3/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Back</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Welcome">
+				<NamedResource name="Text" uri="ms-resource://X.t.Pomodoro/Resources/Welcome/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Pomodoro technique!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

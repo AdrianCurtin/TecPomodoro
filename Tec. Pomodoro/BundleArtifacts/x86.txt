@@ -1,0 +1,2 @@
+MainPackage=F:\Github\TecPomodoro\Tec. Pomodoro\bin\x86\Release\tPomodoro_1.0.3.0_x86.appx
+SymbolPackage=F:\Github\TecPomodoro\Tec. Pomodoro\obj\x86\Release\Symbols\tPomodoro_1.0.3.0_x86.appxsym
